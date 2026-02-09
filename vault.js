@@ -1,24 +1,23 @@
 const vault = [
   {
-    name: "Games",
-    icon: "🎮",
-    files: [
-      "vault/games/idea1.txt",
-      "vault/games/idea2.txt"
-    ]
-  },
-  {
-    name: "Arduino Projects",
+    name: "Mini Computer",
     icon: "⚙️",
     files: [
-      "vault/arduino/robotcar.txt"
+      "vault/minipc/overview.txt"
     ]
   },
   {
-    name: "Thoughts",
-    icon: "💡",
+    name: "Unused",
+    icon: "?",
     files: [
-      "vault/thoughts/future.txt"
+      ""
+    ]
+  },
+  {
+    name: "Unused2",
+    icon: "?",
+    files: [
+      ""
     ]
   }
 ];
