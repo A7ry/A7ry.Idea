@@ -1,28 +1,30 @@
 const folderDiv = document.getElementById("folders");
 
-for (let folder in vault) {
-
-  // Folder title
+vault.forEach(folder => {
+  // Folder title with icon
   const header = document.createElement("h3");
-  header.textContent = "📁 " + folder;
+  header.textContent = `${folder.icon} ${folder.name}`;
   folderDiv.appendChild(header);
 
   // File buttons
-  vault[folder].forEach(path => {
-
+  folder.files.forEach(path => {
     const fileName = path.split("/").pop();
-
     const btn = document.createElement("button");
-    btn.textContent = "📄 " + fileName;
+    btn.textContent = `📄 ${fileName}`;
 
     btn.onclick = async () => {
-      const res = await fetch(path);
-      const text = await res.text();
-
-      document.getElementById("title").textContent = fileName;
-      document.getElementById("content").textContent = text;
+      try {
+        const res = await fetch(path);
+        if (!res.ok) throw new Error("File not found");
+        const text = await res.text();
+        document.getElementById("title").textContent = fileName;
+        document.getElementById("content").textContent = text;
+      } catch (err) {
+        document.getElementById("content").textContent =
+          "ERROR loading file.\n" + err;
+      }
     };
 
     folderDiv.appendChild(btn);
   });
-}
+});
