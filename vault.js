@@ -3,7 +3,8 @@ const vault = [
     name: "Mini Computer",
     icon: "⚙️",
     files: [
-      "vault/minipc/overview.txt"
+      "vault/minipc/overview.txt",
+      "vault/minipc/Raspberry-pi-5.png"
     ]
   },
   {
