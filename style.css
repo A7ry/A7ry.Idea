@@ -1,0 +1,41 @@
+body {
+  background: black;
+  color: cyan;
+  font-family: Arial;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  gap: 20px;
+}
+
+#folders {
+  width: 40%;
+  text-align: left;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  background: rgba(0,255,255,0.1);
+  border: 1px solid cyan;
+  color: white;
+  cursor: pointer;
+}
+
+.viewer {
+  width: 60%;
+  border: 1px solid cyan;
+  padding: 15px;
+  height: 400px;
+  overflow-y: auto;
+}
+
+pre {
+  white-space: pre-wrap;
+  color: white;
+}
