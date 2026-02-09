@@ -1,0 +1,21 @@
+This file will be short as its just how much some peices will cost.
+--------------------
+BOARDS
+--------------------
+
+Raspberry Pi 5 4GB - 89.99$ (8GB goes over 100$, thats a little much for this project.)
+This option is good, but expensive.
+
+Arduino UNO Q 4GB (Dosent go up to 8GB) - 59.00$
+Best choice in my opinion, however,
+YOU NEED A USB-C TO HDMI PORT ADAPTER. 
+This is on the arduino website.
+
+
+Heatsink Kit - 11.99$
+This isnt a board, but this would be nice to have and is kinda needed, just get this if you get any of the 2
+boards.
+
+Tiny fan kit - 8.99$
+I have regular pc fans, but they are kinda big. These are just easier to use and put around.
+This is mainly for quality of life.
