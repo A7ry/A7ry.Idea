@@ -39,3 +39,11 @@ pre {
   white-space: pre-wrap;
   color: white;
 }
+button {
+  text-align: left;
+}
+
+img {
+  border-radius: 6px;
+}
+
