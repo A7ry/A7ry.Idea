@@ -4,7 +4,7 @@ const vault = [
     icon: "⚙️",
     files: [
       "vault/minipc/overview.txt",
-      "vault/minipc/Costs.txt",🦸
+      "vault/minipc/Costs.txt",
       "vault/minipc/Raspberry-pi-5.png"
     ]
   },
